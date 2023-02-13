@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #eee;
+}
+h1{
+text-align: center;
+}
+.choicez img{
+    width: 100%;
+    height: 200px;
+}
+.choicez{
+    display: flex;
+    justify-content: center;
+  
+}
+.choices{
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+.choices:hover{
+    transform: scale(1.3);
+}
+#score{
+    background: red;
+}
+button{
+    font-size: 7rem;
+    margin-left: 5rem;
+}
+.results{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+   height: 500px;
+
+   overflow-x: hidden;
+}
+.score{
+    margin-left: 1rem;
+    color: red;
+}
+.match-result{
+    font-size: 5rem;
+    opacity: .3;
+}
+
+.match-result.winner{
+    opacity: 1;
+    font-size: 5.5rem;
+}
+.container{
+    background: #646262;
+}
+span{
+    color: red;
+}
+#yow{
+    color: red;
+}
